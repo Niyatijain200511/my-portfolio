@@ -5,44 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Niyati Jain | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/profile-pic.jpg">
 </head>
 <body>
-  <header>
-    <img src="assets/profile-pic.jpg" alt="Niyati Jain" class="profile-pic">
+
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <img src="assets/profile-pic.jpeg" alt="Niyati Jain" class="profile-pic">
     <h1>Niyati Jain</h1>
-    <p>B.Tech (Artificial Intelligence) | Mandsaur University | 2027 Batch</p>
+    <p class="tagline">B.Tech AI Student | Mandsaur University, 2027</p>
   </header>
 
+  <!-- About Section -->
   <section class="about">
     <h2>About Me</h2>
     <p>
-      I am an AI student passionate about Machine Learning, Data Science, and building innovative projects.  
-      Always curious to learn new technologies and improve my coding skills.
+      Passionate about Artificial Intelligence and Machine Learning. I love building projects that solve real-world problems and learning new technologies every day.
     </p>
   </section>
 
+  <!-- Skills Section -->
   <section class="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>Python · Java · C · JavaScript</li>
-      <li>Machine Learning · Deep Learning · Data Analysis</li>
-      <li>Git · VS Code · Google Colab · Jupyter Notebook</li>
-      <li>Problem Solving · DSA · Project Management</li>
-    </ul>
+    <div class="skill-bar">
+      <span>Python</span>
+      <div class="bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>Java</span>
+      <div class="bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>Machine Learning</span>
+      <div class="bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>Data Analysis</span>
+      <div class="bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
   </section>
 
+  <!-- Projects Section -->
   <section class="projects">
     <h2>Projects</h2>
-    <ul>
-      <li><strong>AI-Enhanced Driver Wellness Monitoring:</strong> ML system to detect driver fatigue.</li>
-      <li><strong>Predictive Parking System:</strong> Real-time parking availability solution.</li>
-      <li><strong>Road Hazard Detection:</strong> Computer vision project for road safety.</li>
-    </ul>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>AI Driver Wellness Monitoring</h3>
+        <p>ML system to detect driver fatigue and wellness in real-time.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Predictive Parking System</h3>
+        <p>Real-time smart solution for parking availability using AI.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Road Hazard Detection</h3>
+        <p>Computer vision project for detecting road anomalies.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
   </section>
 
+  <!-- GitHub Stats -->
+  <section class="github-stats">
+    <h2>GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=Niyatijain200511&show_icons=true&theme=radical" alt="GitHub Stats">
+  </section>
+
+  <!-- Contact Section -->
   <section class="contact">
-    <h2>Connect With Me</h2>
+    <h2>Contact Me</h2>
     <p>Email: <a href="mailto:niyati.jain2005@example.com">niyati.jain2005@example.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/niyatijain2005/">linkedin.com/in/niyatijain2005</a></p>
     <p>GitHub: <a href="https://github.com/Niyatijain200511">github.com/Niyatijain200511</a></p>
@@ -51,5 +83,6 @@
   <footer>
     <p>© 2025 Niyati Jain. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
